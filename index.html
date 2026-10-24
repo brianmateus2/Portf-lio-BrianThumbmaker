@@ -192,7 +192,6 @@ footer{padding:36px 0;text-align:center;color:var(--muted);font:400 11px/1 var(-
 <defs>
 <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f0f0f"/><stop offset=".55" stop-color="#0e2410"/><stop offset="1" stop-color="#0f0f0f"/></linearGradient>
 <radialGradient id="moon" cx=".4" cy=".38" r=".75"><stop offset="0" stop-color="#f3ffd0"/><stop offset=".6" stop-color="#a8f068"/><stop offset="1" stop-color="#5dd62c"/></radialGradient>
-<clipPath id="mc"><circle cx="720" cy="290" r="72"/></clipPath>
 <filter id="sm" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4"/></filter>
 <filter id="wp" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="7"/></filter>
 <radialGradient id="shade" cx=".38" cy=".34" r=".8"><stop offset=".5" stop-color="#0f2a08" stop-opacity="0"/><stop offset="1" stop-color="#0f2a08" stop-opacity=".65"/></radialGradient>
@@ -217,16 +216,6 @@ footer{padding:36px 0;text-align:center;color:var(--muted);font:400 11px/1 var(-
 <ellipse cx="1000" cy="500" rx="260" ry="90" fill="#5dd62c" opacity=".22"/>
 <ellipse cx="640" cy="680" rx="340" ry="70" fill="#337418" opacity=".45"/>
 </g>
-<circle class="halo" cx="720" cy="290" r="300" fill="#5dd62c" opacity=".16" filter="url(#bl)"/>
-<circle class="halo" cx="720" cy="290" r="165" fill="#5dd62c" opacity=".5" filter="url(#bl)"/>
-<g clip-path="url(#mc)">
-<circle cx="720" cy="290" r="72" fill="url(#moon)"/>
-<g filter="url(#sm)" fill="#337418" opacity=".45"><ellipse cx="700" cy="268" rx="20" ry="14"/><ellipse cx="742" cy="300" rx="16" ry="22"/><ellipse cx="716" cy="326" rx="14" ry="9"/><ellipse cx="748" cy="258" rx="8" ry="6"/></g>
-<g fill="none" stroke="#337418" stroke-width="1.5" opacity=".4"><circle cx="690" cy="300" r="7"/><circle cx="730" cy="262" r="5"/><circle cx="752" cy="322" r="6"/></g>
-<circle cx="720" cy="290" r="72" fill="url(#shade)"/>
-<ellipse cx="730" cy="338" rx="130" ry="9" fill="#0e2410" opacity=".6" filter="url(#wp)"/>
-</g>
-<circle cx="720" cy="290" r="73" fill="none" stroke="#f3ffd0" stroke-width="1.5" opacity=".55"/>
 <g class="birds" fill="none" stroke="#070907" stroke-width="2" stroke-linecap="round"><path d="M610 222q8-8 16 0q8-8 16 0"/><path d="M652 196q6-6 12 0q6-6 12 0"/><path d="M830 246q7-7 14 0q7-7 14 0"/></g>
 <path d="M0 650L70 610L110 640L180 575L230 628L310 600L390 645L470 615L560 660L680 625L790 665L890 600L935 560L985 615L1060 590L1120 625L1200 600V800H0Z" fill="#0d2a10" opacity=".85"/>
 <path d="M0 700L120 670L250 700L400 665L560 705L720 675L900 705L1050 670L1200 700V800H0Z" fill="#091a0b"/>
